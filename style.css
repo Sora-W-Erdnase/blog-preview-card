@@ -6,16 +6,16 @@ body {
     font-family: "Figtree";
     margin: 0px;
     background-color: hsl(47, 88%, 63%);
+
 }
 
 img {
     max-width: 100%;
 }
 
-main{
+main {
     display: flex;
-    align-content: center;
-    justify-content: center;
+    margin-top: 15%;
 }
 
 span {
@@ -49,12 +49,11 @@ h1 + p{
 
 /* class */
 
-.container {
+.container { 
     display: flex;
     flex-direction: column;
     width: 375px;
     margin: auto;
-    margin-top: 10%;
     background-color: white;
     padding-right: 20px;
     padding-left: 20px;
@@ -62,8 +61,6 @@ h1 + p{
     border: 1px solid black;
     border-radius: 20px;
     box-shadow: 7px 7px;
-    align-content: center;
-    justify-content: center;
 }
 
 .picture-caption{
